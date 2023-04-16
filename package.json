@@ -6,11 +6,11 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js",
     "start": "node app.js",
     "prisma:generate": "prisma generate",
     "prisma:migrate": "prisma migrate dev --preview-feature",
-    "prisma:seed": "prisma db seed --preview-feature",
-    "prisma:migrate:deploy": "prisma migrate deploy"
+    "prisma:seed": "prisma db seed --preview-feature"
   },
   "keywords": [],
   "author": "",
@@ -25,7 +25,6 @@
     "prisma": "^4.12.0"
   },
   "devDependencies": {
-    "dev": "nodemon app.js"
    
   }
 }
