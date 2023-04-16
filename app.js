@@ -1,4 +1,5 @@
 import express from 'express';
+import cors from 'cors';
 import messageRoutes from './routes/messageRoutes.js';
 import dotenv from 'dotenv';
 
@@ -7,10 +8,10 @@ dotenv.config();
 const app = express();
 
 app.use(express.json());
-app.use("/messages", messageRoutes)
+app.use(cors());
+app.use("/messages", messageRoutes);
 
-
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT || 3001
 
 
 app.listen(PORT, (err)=>{
