@@ -10,7 +10,8 @@
     "start": "node app.js",
     "prisma:generate": "prisma generate",
     "prisma:migrate": "prisma migrate dev --preview-feature",
-    "prisma:seed": "prisma db seed --preview-feature"
+    "prisma:seed": "prisma db seed --preview-feature",
+    "prisma:migrate:deploy": "prisma migrate deploy"
   },
   "keywords": [],
   "author": "",
@@ -25,6 +26,6 @@
     "prisma": "^4.12.0"
   },
   "devDependencies": {
-    "prisma": "^4.12.0"
+   
   }
 }
