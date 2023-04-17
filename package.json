@@ -7,24 +7,22 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon app.js",
-    "start": "node app.js",
-    "prisma:generate": "prisma generate",
-    "prisma:migrate": "prisma migrate dev --preview-feature",
-    "prisma:seed": "prisma db seed --preview-feature"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@prisma/client": "^4.12.0",
-    "cors": "^2.8.5",
-    "dotenv": "^16.0.3",
-    "express": "^4.18.2",
-    "express-validator": "^6.15.0",
-    "nodemon": "^2.0.22",
-    "prisma": "^4.12.0"
-  },
-  "devDependencies": {
-   
+    "start": "node app.js"  
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "@prisma/client": "^4.12.0",
+      "cors": "^2.8.5",
+      "dotenv": "^16.0.3",
+      "express": "^4.18.2",
+      "express-validator": "^6.15.0",
+      "nodemon": "^2.0.22",
+      "prisma": "^4.12.0"
+    },
+    "devDependencies": {
+      
+    }
   }
-}
+  
